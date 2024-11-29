@@ -1,7 +1,7 @@
 # Project Title - Moviefy
 
 ## Project Overview 
-This is a project where i create a website where people can leave a review on a movie, and people can find new movies of the same gaunera
+This is my ASAP project, this is  where i create a website where people can leave a review on a movie, and people can find new movies of the same gaunera
 
 ### Key Features :
 
