@@ -1,76 +1,71 @@
-<style> 
-  * {
-    font-size: 1.3rem
-  }
+# Moviefy
 
-  .Main {
-    font-size: 6rem; 
-    background: None; 
-    color: white
-  }
+## Milestone 1
 
-  .milestone {
-    background: lightblue; 
-    color: black;
-    font-size: 4rem 
-  }
+### Project Overview
 
-  .heading {
-    font-size: 2.5rem;
-  }
-  
-</style>
+This is my ASAP project, where I create a website where people can leave a review on a movie, and people can find new movies of the same genre.
 
-<span class="Main"> Moviefy </span>
+### Key Features
 
-<span class="milestone"> Milestone 1 </span>
+1. **Login**
+2. **Sign Up**
+3. **Posting Reviews**:
+   - Add a review with:
+     - An image (optional)
+     - Tags for the genre of the movie
+4. **Search Functionality**:
+   - Search for movies based on genres
 
-<span class="heading"> Project Overview </span>
+### Tech Stack
 
-This is my ASAP project, In this is where i create a website where people can leave a review on a movie, and people can find new movies of the same genre
+- **MERN**:
+  - MongoDB
+  - Express
+  - React.js
+  - Node.js
 
-<span class="heading"> Key Features </span>:
+## Why This Project
 
-    1. Login
+As a movie enthusiast, I want to watch movies, but the problem I face is that I don’t get proper reviews and cannot easily find movies of the genre I like.
 
-    2. Sign up
+---
 
-    3. Posting the review with:
+# Milestone 2
 
-    4.  An image (optional)
+### Project Updates
 
-    5. tags for the genera of the movie
+I finished setting up the basic **folder structure** and **dependencies** for the backend.
 
-    6. Searching based on genera
+### Steps Taken
 
-<span class="heading"> Tech Stack </span>
+- Created new project folders:
 
-MERN (MongoDB , express , ReactJs and NodeJS)
-
-<span class="heading"> Why this Project </span>
-
-As a movie enthusiast i want to see movie bur the problem i face is that i don't get a proper review i need and i cant easily find the movie of the genre i like
-
-<span class = "milestone"> Milestone 2 </span>
-
-<span class="heading"> Project Updates </span>
-
-I finished setting up of the basic **folder structure** and **dependency's** for Backend
-
-I achieve this through the following Steps:
-
-- Created a new project folders from `mkdir Frontend Backend`
-- Changed directory through `cd Backend`
-- Initialized the Backend through `npm init -y`
-- Installed the required dependency through
+  ```bash
+  mkdir Frontend Backend
   ```
-  npm i express;
-  npm i mongoose;
-  npm i cors;
-  npm i nodemon;
+
+- Changed the directory:
+  ```bash
+  cd Backend
   ```
-- Created a Source file **src** through `mkdir src` and CD into it through `cd src`
-- Then created the following folders
+- Initialized the backend:
+  ```bash
+  npm init -y
   ```
-  mkdir Config controllers Middlewares Routes;
+- Installed required dependencies:
+  ```bash
+  npm i express
+  npm i mongoose
+  npm i cors
+  npm i nodemon
+  ```
+- Created a Source folder
+  ```bash
+  mkdir src
+  cd src
+  ```
+- Created additional folders inside the source directory:
+  ```bash
+  mkdir Config Controllers middlewares Routes
   ```
