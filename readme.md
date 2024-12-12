@@ -42,7 +42,7 @@ I finished setting up the basic **folder structure** and **dependencies** for th
 - Created new project folders:
 
   ```bash
-  mkdir Frontend Backend
+  mkdir Backend
   ```
 
 - Changed the directory:
@@ -69,3 +69,25 @@ I finished setting up the basic **folder structure** and **dependencies** for th
   ```bash
   mkdir Config Controllers middlewares Routes
   ```
+- Created two files for seting up of server:
+  ```bash
+  touch app.js server.js
+  ```
+
+# Milestone 3
+
+### Project Updates
+
+I finished setting up the Endpoint of the server and added a `.env` file
+
+Also set-up the Frontend using React  
+
+### Steps Taken
+
+- Created an `.env` file to keep track of the Environment variables 
+
+- Added an `app.js` file to setup the server
+
+- Added an `index.js` file to start the server
+
+- Fixed minor bugs in the code
