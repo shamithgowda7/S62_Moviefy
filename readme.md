@@ -31,13 +31,13 @@ As a movie enthusiast, I want to watch movies, but the problem I face is that I 
 
 ---
 
-# Milestone 2
+## Milestone 2
 
-### Project Updates
+### Project Update 1
 
 I finished setting up the basic **folder structure** and **dependencies** for the backend.
 
-### Steps Taken
+### Steps Taken 1
 
 - Created new project folders:
 
@@ -46,45 +46,56 @@ I finished setting up the basic **folder structure** and **dependencies** for th
   ```
 
 - Changed the directory:
+
   ```bash
   cd Backend
   ```
+
 - Initialized the backend:
+
   ```bash
   npm init -y
   ```
+
 - Installed required dependencies:
+
   ```bash
   npm i express
   npm i mongoose
   npm i cors
   npm i nodemon
   ```
+
 - Created a Source folder
+
   ```bash
   mkdir src
   cd src
   ```
+
 - Created additional folders inside the source directory:
+
   ```bash
   mkdir Config Controllers middlewares Routes
   ```
-- Created two files for seting up of server:
+
+- Created two files for setting up of server:
+
   ```bash
   touch app.js server.js
   ```
 
-# Milestone 3
+## Milestone 3
 
-### Project Updates
+### Project Update 2
 
 I finished setting up the Endpoint of the server and added a `.env` file
 
-Also set-up the Frontend using React  
+Also set-up the Frontend using React
 
-### Steps Taken
+### Steps Taken 2
 
-- Created an `.env` file to keep track of the Environment variables 
+- Created an `.env` file to keep track of the Environment variables
 
 - Added an `app.js` file to setup the server
 
