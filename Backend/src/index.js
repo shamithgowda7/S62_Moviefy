@@ -8,5 +8,5 @@ const app = require("./app.js");
 const port = process.env.PORT;
 
 const server = app.listen(port, () => {
-  console.log(`server started at port ${port}`);
+  console.log(`server started at port http://localhost:${port}`);
 });
