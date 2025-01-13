@@ -108,7 +108,13 @@ I’ve successfully set up the server endpoint and configured the .env file for 
 
 - Fixed minor bugs and improved the overall code structure.
 
-### Milestone 4
+## Milestone 4
+
+### Project Update 3
+
+I've have successfully deployed my project on render and have tested it
+
+### Steps taken 3
 
 - Logged on to Render.com and Deployed my project
 
@@ -117,3 +123,15 @@ I’ve successfully set up the server endpoint and configured the .env file for 
 - I have attached the Deployment link, to check it out
 
   - ### Click [here](https://s62-moviefy.onrender.com)
+
+## Milestone 5
+
+### Project Update 4
+
+I've added bruno to my project
+
+### Steps Taken 4
+
+- Created a new collection in bruno
+
+- Connected my project bruno
