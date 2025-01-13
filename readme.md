@@ -107,3 +107,13 @@ I’ve successfully set up the server endpoint and configured the .env file for 
 - Added an index.js file to start the backend server.
 
 - Fixed minor bugs and improved the overall code structure.
+
+### Milestone 4
+
+- Logged on to Render.com and Deployed my project
+
+- Updated the felids required by render and deployed the project
+
+- I have attached the Deployment link, to check it out
+
+  - ### Click [here](https://s62-moviefy.onrender.com)
