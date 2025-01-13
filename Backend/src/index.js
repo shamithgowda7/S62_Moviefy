@@ -4,9 +4,12 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   });
 }
 
+const connectDB = require("./DB/database.js");
+
 const app = require("./app.js");
 const port = process.env.PORT || 8080;
 
 const server = app.listen(port, () => {
+  connectDB();
   console.log(`server started at port http://localhost:${port}`);
 });
