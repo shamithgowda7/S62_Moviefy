@@ -135,3 +135,17 @@ I've added bruno to my project
 - Created a new collection in bruno
 
 - Connected my project bruno
+
+## Milestone 6
+
+### Project Update 5
+
+I've added user models and schema to my project, and also added database connection
+
+### Steps Taken 5
+
+- Created a new file for user models and schema
+
+- Added database connection to the user models and schema
+
+- Added routes to add data and retrieve data
