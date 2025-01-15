@@ -11,6 +11,8 @@ app.use(express.json());
 
 const { getDB, connection } = require("./DB/mongo.client.js");
 
+const route = require("./Routes/route.js");
+
 app.get("/", async (req, res) => {
   const checkStatus = await connection.connect();
   const readyState = connection.topology.isConnected()
@@ -18,5 +20,7 @@ app.get("/", async (req, res) => {
     : "disconnected";
   res.send(`<h3>Database connection status: ${readyState}</h3>`);
 });
+
+app.use("/", route);
 
 module.exports = app;

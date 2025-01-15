@@ -1,0 +1,15 @@
+meta {
+  name: Update User
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:8080/user/:id
+  body: {
+    "name": "John Updated",
+    "email": "john.updated@example.com",
+    "password": "newpassword123"
+  }
+  auth: none
+}
