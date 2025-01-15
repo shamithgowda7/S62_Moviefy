@@ -149,3 +149,17 @@ I've added user models and schema to my project, and also added database connect
 - Added database connection to the user models and schema
 
 - Added routes to add data and retrieve data
+
+## Milestone 7
+
+### Project Update 6
+
+I've connected my DataBase using mongoDb client
+
+### Steps Taken 6
+
+- Installed the required packages for mongoDb client
+
+- Connected to the database using the client
+
+- Added the database connection to the user models and schema
