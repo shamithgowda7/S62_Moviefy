@@ -163,3 +163,17 @@ I've connected my DataBase using mongoDb client
 - Connected to the database using the client
 
 - Added the database connection to the user models and schema
+
+## Milestone 8
+
+### Project Update 7
+
+I've added CURD operations to my project
+
+### Steps Taken 7
+
+- Added routes for create, read, update and delete operations
+
+- Added functions to handle the CURD operations
+
+- Added error handling for the CURD operations
