@@ -177,3 +177,19 @@ I've added CURD operations to my project
 - Added functions to handle the CURD operations
 
 - Added error handling for the CURD operations
+
+## Milestone 9
+
+### Project Update 8
+
+I've successfully set up the frontend using Vite and React.
+
+### Steps Taken 8
+
+1. Created the `Frontend` folder to maintain the frontend files separately.
+2. Set up a new React app using Vite in the `Frontend` folder.
+3. Installed the necessary dependencies for the React app.
+4. Updated the `App.jsx` file to create a landing page for the ASAP project, which includes:
+   - A title for the project.
+   - A brief description of the project.
+   - Relevant content to engage users.
